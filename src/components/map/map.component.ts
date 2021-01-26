@@ -14,7 +14,7 @@ export class MapComponent implements OnInit {
     this.options = {
       layers: [
         tileLayer(
-          'https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibmlzaGNoYWxwcm8iLCJhIjoiY2trZTJyYXY0MGdheTJwbWlqZ3U4aDA4NyJ9.97KOHN-noa6zpqKmM7jIHw',
+          'https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibmlzaGNoYWxwcm8iLCJhIjoiY2trZTJuN3d3MHg2ajJvcGFmaWRhN2IxeiJ9.WdoqM71wHpruh8FVOXuErQ',
           {
             attribution: '...',
           }
