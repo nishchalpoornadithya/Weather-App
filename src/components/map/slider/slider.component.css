@@ -1,0 +1,13 @@
+:host {
+  position: absolute;
+  top: 10px;
+  margin-left: 10px;
+  background: gray;
+  border-radius: 15px;
+  z-index: 401;
+}
+
+:host ::ng-deep mat-slider {
+  width: 267px;
+  margin: 20px 10px;
+}
