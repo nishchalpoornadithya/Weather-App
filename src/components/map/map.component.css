@@ -1,3 +1,30 @@
 #map {
   height: 100vh;
 }
+
+.weather-info-controller {
+  position: absolute;
+  top: 10px;
+  margin-left: 10px;
+  z-index: 401;
+}
+
+input {
+  display: block;
+  width: 257px;
+  margin: 0px 10px;
+  background: gray;
+  border-radius: 15px;
+  border: 0;
+  color: white;
+  padding: 5px 6px;
+}
+
+input::placeholder {
+  color: white;
+  opacity: 0.3;
+}
+
+input:focus {
+  outline: none;
+}

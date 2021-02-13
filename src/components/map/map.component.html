@@ -1,2 +1,17 @@
-<div id="map" leaflet [leafletOptions]="options"></div>
-<app-slider></app-slider>
+<div
+  id="map"
+  leaflet
+  [leafletOptions]="options"
+  [(leafletCenter)]="mapCenter"
+  [(leafletZoom)]="mapZoom"
+  [leafletLayer]="layer"
+></div>
+<div class="weather-info-controller">
+  <app-slider></app-slider>
+  <input
+    #location
+    type="text"
+    (change)="locationChange(location.value)"
+    placeholder="Enter coordinates as 'lat,long'"
+  />
+</div>

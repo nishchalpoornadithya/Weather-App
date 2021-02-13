@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+
+.popUp {
+  width: 250px;
+  height: 217px;
+  background: black;
+  border-radius: 5px;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+}
+
+.h4 {
+  margin: 0;
+}
+
+.weather-details {
+  padding-top: 10px;
+}
